@@ -32,7 +32,7 @@ If you don't want to actually send messages during integration, you can use debu
     use Lapshev\SmsAssistant;
     
     $sender = new SmsAssistant\Sender('s', 'u', 'p', [
-        'debug'             => false,
+        'debug'             => true,
         'debug_filename'    => __DIR__ . '/out/log.txt'
     ]);
 ```
