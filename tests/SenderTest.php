@@ -19,7 +19,7 @@
 
         protected function setUp() {
             $this->sender = new Sender(self::SENDER, self::USER, self::PASS, [
-                'debug'             => true,                        // tests not working in debug mode yet
+                'debug'             => false,                        // tests not working in debug mode yet
                 'debug_filename'    => __DIR__ . '/out/log.txt'
             ]);
         }
