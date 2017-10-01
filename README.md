@@ -1,5 +1,9 @@
 # sms-assistant #
 Simple [sms-assistent](http://sms-assistent.by/) client implementation, based on [Guzzle Client](http://docs.guzzlephp.org/en/stable/).
+
+### Installation ###
+- `composer require lapshev/sms-assistent` using composer
+
 ### Usage ###
 ```php
 use Lapshev\SmsAssistant;
