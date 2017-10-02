@@ -112,6 +112,6 @@
 
         private function getParam($name) {
             return isset($this->params[$name]) ? $this->params[$name]
-                : (isset(self::DEFAULT_PARAMS[$name]) ? self::DEFAULT_PARAMS[$name] : null);
+                : (self::DEFAULT_PARAMS[$name] !== null ? self::DEFAULT_PARAMS[$name] : null);
         }
     }
